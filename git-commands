@@ -1,0 +1,48 @@
+Git Commands:
+=============
+
+1) To initialize the git(To start the git)
+- git init
+
+2) To register username or email id, who will perform the work
+- git config --global user.name "Prashant"
+- git config --global user.email "prashant@gmail.com"
+
+3) To see the list of username or email id
+- git config --list
+
+4) To check the status of git
+- git status
+
+5) To move file from working directory to staging area.
+- git add "file_name"
+    or
+- git add . (To add all file)
+
+6) To move file from Staging Area to Local repository.
+- git commit -m "enter the commit message here"
+eg: git commit - m "This is my file"
+
+7) To see who will do commit the code.
+- git log 
+
+- git log -1 (To see latest commit)
+- git log -2 (To see last two)
+- git log --oneline (To see all the commit)
+
+- git log -grep "ignore".
+
+
+8) To display the code.
+- git show <commit_id>
+
+9) To add the central repo to local(github)
+- git remote add origin <github_repo_url> 
+
+10) To push the code from local repo to remote github.
+- git push -u origin master
+(enter username or password of github)
+
+
+11) To download code from github to local
+- git pull -u origin master
