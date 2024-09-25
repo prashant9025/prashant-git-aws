@@ -1,0 +1,21 @@
+.gitignore:
+===========
+12)To ignore some files while commiting
+  create one hidden file ".gitignore" and enter the file format
+  which you want to ignore. 
+- for eg: vim .gitignore
+        enter *.css
+              *.java
+
+         -> git add .gitignore
+         -> git commit -m "ignore the files format"
+         -> git status
+
+--> Create some text , java & css files and add 
+    them by running "git add" 
+For eg: touch file1.txt, file2.txt, file3.txt, file4.css, file5.java, file6.java.
+
+ --> ls
+ --> git status
+ --> git add .
+ --> git commit -m "my text file"
