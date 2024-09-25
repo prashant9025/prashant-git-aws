@@ -1,0 +1,26 @@
+Branch:
+==========
+
+13) To see this list of Available branch
+- git branch
+
+14) To Create a branch
+- git branch <branch_name>
+
+15) To switch a Branch
+- git checkout <branch_name>
+
+16) To delete the branch
+- git branch -d <branch_name>
+
+17) To delete the branch forcefuly
+- git branch -D <branch_name>
+
+18) To merge branch
+- git merge <branch_name>
+
+19) To verify the merge
+- git log 
+
+20) To push to central repo like github
+- git push origin master 
